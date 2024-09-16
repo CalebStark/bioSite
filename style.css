@@ -1,5 +1,10 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 header {
-    background-image: url(images/stars.jpg);
+    background-image: url(/images/stars.jpg);
     background-color: #9d2de3;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,6 +13,7 @@ header {
 
 h1 {
     color: white;
+    margin: 0;
 }
 
 #navbar{
@@ -22,21 +28,28 @@ h1 {
 .headshot {
     border-radius: 50%;
     width: 140px;
-    height: 140px;
+    height: 140px; 
 }
 
 main div{
     width: 40%;
 }
 
-.bikeWithSpen {
-    width: 400px;
-    height: 600px;
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-main {
-    display: inline-block;
-    block-size: 45%;
+#container {
+    width: 40%;
+    margin: 5px;
+}
+
+.bikeWithSpen {
+    padding: 10px;
+    width: 90%;
+    height: 80%
 }
 
 footer {
