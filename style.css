@@ -16,6 +16,16 @@ h1 {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+address {
+    font-size: 24px;
+}
+
 #navbar{
     display: flex;
     justify-content: space-evenly;
@@ -31,10 +41,6 @@ h1 {
     height: 140px; 
 }
 
-main div{
-    width: 40%;
-}
-
 main {
     display: flex;
     flex-direction: row;
@@ -46,15 +52,21 @@ main {
     margin: 5px;
 }
 
-.bikeWithSpen {
+img {
     padding: 10px;
     width: 90%;
     height: 80%
 }
 
 footer {
+    height: 50px;
     width: 100%;
     background-color: #9d2de3;
     color: white;
     text-align: center;
+
+}
+
+footer a:visited{
+    color: white;
 }
