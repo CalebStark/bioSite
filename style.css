@@ -4,7 +4,7 @@ html, body {
 }
 
 header {
-    background-image: url("../bioSite/images/stars.jpg");
+    background-image: url(./images/stars.jpg);
     background-color: #9d2de3;
     background-repeat: no-repeat;
     background-size: cover;
